@@ -1,0 +1,10 @@
+#include <stdio.h>
+ int main()
+ {
+    int d,r;
+    printf("Enter dollars: ");
+    scanf("%d", &d);
+    r=d*48;
+    printf("Rupees = %d", r);
+    return 0;
+ }
