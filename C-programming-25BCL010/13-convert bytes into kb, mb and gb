@@ -1,11 +1,10 @@
  #include <stdio.h>
-  int main() 
-  {
- long bytes;
- printf("Enter␣bytes:");
- scanf("%ld", &bytes);
- printf("KB␣=␣%f\n", bytes / 1024.0);
- printf("MB␣=␣%f\n", bytes / (1024 * 1024));
- printf("GB=%f\n", bytes / (1024 * 1024 * 1024));
- return 0;
- }
+ int main() {
+    float b;
+    printf("Enter bytes: ");
+    scanf("%f", &b);
+    printf("KB = %f\n", b/1024);
+    printf("MB = %f\n", b/(1024*1024));
+    printf("GB = %f", b/(1024*1024*1024));
+    return 0;
+}
